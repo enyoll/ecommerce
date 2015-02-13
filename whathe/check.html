@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <link rel="stylesheet" href="styles.css">
+   <script src="jquery-2.1.3.js"></script>
+   <script src="check.js"></script>
+    
+   <title>Jualan Yuk!</title>
+</head>
+<body>
+
+<h1><center><img src="images/logo.png"></center></h1>
+<div id='mblo'></div>
+<div id="result"> item(s) On Your Basket</div><button id="hapus">Clear All</button>
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Home</span></a></li>
+   <li><a href='product.html'><span>Products</span></a></li>
+   <li><a href='#'><span>SALE</span></a></li>
+   <li><a href='#'><span>Contact</span></a></li>
+</ul>
+</div>
+    
+ <div id='menu'>
+ <h3>Category</h3>
+    <ul id="kat">
+        <li id="cat" class="template"><a id="links" href=""><div id="isi"></div></a></li>
+    </ul>     
+ </div>
+    
+
+<div id='cek'>
+    <h3>On Your Basket</h3>
+        <table border="1" style="width:100%" id ="table">
+   <tr>
+    <td>No</td>
+    <td>ID</td> 
+    <td>Nama</td>
+	<td>Harga</td>
+	<td>Gambar</td>
+	<td>Qty</td>
+	<td>Total</td>
+  </tr>
+            
+    <form id="form1" name="form1" method="post" action="masuk.php">
+		<tr id ="tampil" class = "template">
+    <td>	<span  id="no"     ></span></td>
+    <td>	<span  id="id"     ></span></td> 
+    <td>	<span  id="name"   ></span></td>
+	<td>	<span  id="price"  ></span></td>
+	<td> 	<span> <img class="pic" src=""height="100" width="110"> </span></td>
+	<td>	<span  id="qty"  ></span></td>	
+	<td>	<span  id="total"  ></span></td>
+		</tr>
+</table>
+            
+            <input type = "text" name =  "id"     value=""  id="idinput"> 
+            <input type = "text" name =  "nama"   value=""  id="namainput">
+            <input type = "text" name =  "qty"    value=""  id="qtyinput">
+            <input type = "text" name =  "total"  value=""  id="totalinput">
+            <input type = "text" name = "cart"  value=""  id="cart">        
+            
+            
+<button id="Buy" button >Buy</button>
+<button id="Con" button >Continue Shopping</button>
+</div>
+</form>
+    
+</body>
+<html>

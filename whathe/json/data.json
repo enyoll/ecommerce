@@ -1,0 +1,11 @@
+{
+"Nama" : "Fransisca",
+"Lokasi" : "Cimone",
+"Category" : [
+                {"Nama" : "T-Shirt"},
+                {"Nama" : "Pants"},
+                {"Nama" : "Jackets"},
+                {"Nama" : "Blouse"},
+                {"Nama" : "Skirt"}
+             ]
+}

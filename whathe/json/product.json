@@ -1,0 +1,37 @@
+{"Product" : [
+                {"Nama":"All day green",
+                 "Deskripsi":"",
+                 "Harga":"IDR 200",
+                 "Categori":"T-Shirt",
+                 "Image":"images/tshirt.jpg"
+                },
+                {
+                 "Nama":"Varsity",
+                 "Deskripsi":"",
+                 "Harga":"IDR 300",
+                 "Categori":"Jakets",
+                 "Image":"images/jaket1.jpg"
+                },
+                {
+                 "Nama":"North Face Jacket Pink",
+                 "Deskripsi":"",
+                 "Harga":"IDR 400",
+                 "Categori":"Jakets",
+                 "Image":"images/jaket2.jpg"
+                },
+                {
+                 "Nama":"Skinny Pant",
+                 "Deskripsi":"",
+                 "Harga":"IDR 500",
+                 "Categori":"Pants",
+                 "Image":"images/pants.jpg"
+                },
+                {
+                 "Nama":"Velvet Skirt",
+                 "Deskripsi":"",
+                 "Harga":"IDR 300",
+                 "Categori":"Skirt",
+                 "Image":"images/skirt.jpg"
+                }
+]
+}
